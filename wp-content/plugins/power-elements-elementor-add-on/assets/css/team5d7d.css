@@ -1,0 +1,249 @@
+/*------- Team -------*/
+.power_team_member div,
+.power_team_member a,
+.power_team_member:hover,
+.power_team_member:before{
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+.power_team_member{
+    position: relative;
+    overflow: hidden;
+}
+.power_team_member .power_team_member_image{
+    background: transparent;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #999;
+    border-radius: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_image img{
+    width: 100%;
+    height: auto;
+}
+.power_team_member .power_team_member_intro{
+    text-align: center;
+    background: #fafafa;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+}
+.power_team_member:hover .power_team_member_intro{
+    bottom: -100%;
+}
+.power_team_member .power_team_member_intro .power_team_member_intro_title{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #222;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_intro .power_team_member_intro_designation{
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #999;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_details .power_team_member_title{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #fff;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_details .power_team_member_designation{
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #999;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_details .power_team_member_text{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: normal;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #fff;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_team_member .power_team_member_social{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*flex-start, center, flex-end*/
+    list-style-type: none;
+}
+.power_team_member .power_team_member_social .power_team_member_social_item{
+    margin: 0px 5px 0px 5px;
+}
+.power_team_member .power_team_member_social .power_team_member_social_item:first-child{
+    margin: 0px 5px 0px 0px;
+}
+.power_team_member .power_team_member_social .power_team_member_social_item:last-child{
+    margin: 0px 0px 0px 5px;
+}
+.power_team_member .power_team_member_social .power_team_member_social_item a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: none;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #888;
+    color: #fff;
+    box-shadow: none; /* none */
+    border-radius: 10px 10px 10px 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+}
+.power_team_member .power_team_member_social .power_team_member_social_item a:hover{
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: none;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #222;
+    color: #fff;
+    box-shadow: none; /* none */
+    border-radius: 10px 10px 10px 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+/*-- simple_style --*/
+.power_team_member.simple_style .power_team_member_image{
+    position: relative;
+    overflow: hidden;
+}
+.power_team_member.simple_style .power_team_member_details{
+    text-align: center;
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+}
+
+/*-- overlay_style --*/
+.power_team_member.overlay_style .power_team_member_details{
+    position: absolute;
+    bottom: 0;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(34,34,34,0.9);
+}
+.power_team_member.overlay_style:hover .power_team_member_details{
+    top: 0%;
+}
+.power_team_member.overlay_style .power_team_member_details .power_team_member_inner{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+#power_team_member_4.power_team_member.overlay_style .power_team_member_details{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0) 100%);
+    background: linear-gradient(0deg, rgba(34,34,34,1) 0%, rgba(34,34,34,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    transform: scale(0.5);
+}
+#power_team_member_4.power_team_member.overlay_style:hover .power_team_member_details{
+    top: 0%;
+    transform: scale(1);
+}
+
+#power_team_member_4.power_team_member.overlay_style .power_team_member_image{
+    position: relative;
+    overflow: hidden;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #222;
+    -webkit-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+    background: transparent;
+}
+#power_team_member_4.power_team_member.overlay_style .power_team_member_image img{
+    width: 100%;
+}
+
+#power_team_member_4.power_team_member.overlay_style .power_team_member_details .power_team_member_inner{
+    background: transparent;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 33px 10px;
+    bottom: 0;
+    top: initial;
+    position: absolute;
+    width: 100%;
+    transform: translateY(0%);
+}

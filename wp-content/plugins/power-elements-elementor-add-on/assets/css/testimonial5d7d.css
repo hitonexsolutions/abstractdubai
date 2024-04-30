@@ -1,0 +1,129 @@
+/*------- Testimonial -------*/
+.power_testimonial_item{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 0px 0px 0px 0px;
+    padding: 80px 80px 80px 80px;
+    margin: 40px 40px 40px 40px;
+}
+.power_testimonial_item .power_testimonial_reviewer_image img{
+    width: 200px;
+    height: 200px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 100% 100% 100% 100%; /* px, % */
+}
+.power_testimonial_item .power_testimonial_reviewer_content{
+    position: relative;
+    background: transparent;
+    padding: 15px 30px 15px 30px;
+    margin: 0px 0px 15px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 0px 0px 0px 0px; /* px, % */
+}
+.power_testimonial_item .power_testimonial_reviewer_name{
+    font-family: inherit;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: capitalize;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #222;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_company{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: capitalize;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #999;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_text{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: unset;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #222;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_rating{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_rating li{
+    display: inline-block;
+    font-size: 22px;
+    color: #ff5f2c;
+    margin: 0px 5px 0px 5px;
+    padding: 0px 0px 0px 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_rating li:first-child{
+    margin-left: 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_rating li:last-child{
+    margin-right: 0px;
+}
+.power_testimonial_item .power_testimonial_reviewer_content:before{
+    content: '';
+    background: url('../img/testimonial/icon.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 128px;
+    height: 101px;
+    color: #f9fbfd;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*--- Aside Image Style---*/
+.power_testimonial_item.power_testimonial_reviewer_image_aside .power_testimonial_reviewer_meta_inner{
+    display: inline-block;
+}
+.power_testimonial_item.power_testimonial_reviewer_image_aside .power_testimonial_reviewer_image{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+.power_testimonial_item.power_testimonial_reviewer_image_aside .power_testimonial_reviewer_details{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+@media screen and (max-width: 767px){
+    .power_testimonial_item.power_testimonial_reviewer_image_aside .power_testimonial_reviewer_image{
+        display: block;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .power_testimonial_item.power_testimonial_reviewer_image_aside .power_testimonial_reviewer_details{
+        display: block;
+    }
+}

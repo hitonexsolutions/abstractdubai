@@ -1,0 +1,133 @@
+/*----Tab --*/
+.power_tab_nav{
+    margin:0 auto;
+    display: block;
+    overflow:hidden;
+}
+.power_tab_nav .power_tab_button_group{
+    display: block;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    border-radius: 15px 0 0 15px;
+    width: 25%;
+}
+.power_tab_nav .power_tab_button_group li{
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_tab_nav .power_tab_button_group li:first-child{
+    margin-top: 0px;
+}
+.power_tab_nav .power_tab_button_group li:last-child{
+    margin-bottom: 0px;
+}
+.power_tab_nav .power_tab_button_group li a{
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* inherit,initial,unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #aaa;
+    text-shadow: none; /* none */
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_tab_nav .power_tab_button_group li a.selected{
+    position: relative;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* inherit,initial,unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #222;
+    text-shadow: none; /* none */
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    z-index: 2;
+}
+.power_tab_nav .power_tab_container{
+    display: block;
+    float: left;
+    width: 75%;
+}
+.power_tab_nav .power_tab_container .power_tab_info{
+    position: relative;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: capitalize;  /* inherit,initial,unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #888;
+    text-shadow: none; /* none */
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #111;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+    display: none;
+}
+
+.power_tab_nav .power_tab_button a .power_tab_button_icon i{
+    font-size: 16px;
+    color: #222;
+}
+.power_tab_nav .item.active .power_tab_button a.selected .power_tab_button_icon i{
+    font-size: 16px;
+    color: #222;
+}
+
+
+/*-- Horizontal --*/
+.power_tab_nav.power_tab.horizontal_style .power_tab_button_group{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* flex-start, center, flex-end*/
+    list-style: none;
+    float: left;
+    width: 100%;
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #111;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.power_tab_nav.power_tab.horizontal_style .power_tab_container{
+    display: block;
+    float: left;
+    width: 100%;
+}

@@ -1,0 +1,140 @@
+/*----Accordion --*/
+.power_accordion .item{
+    position: relative;
+    margin: 0px 0px 10px 0px;
+}
+.power_accordion .item:last-child{
+    margin-bottom: 0px;
+}
+.power_accordion .item .power_accordion_tab{
+    position: relative;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_title{
+    position: relative;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #fafafa;
+    color: #222;
+    text-shadow: none; /* none */
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #111;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_accordion .item:hover .power_accordion_tab .power_accordion_title{
+    background: #222;
+}
+.power_accordion .item.active .power_accordion_tab .power_accordion_title{
+    position: relative;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #222;
+    color: #fff;
+    text-shadow: none; /* none */
+    border-radius: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #111;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_title.accordion-left, 
+.power_accordion .item.active .power_accordion_tab .power_accordion_title.accordion-left{
+    padding-left: 35px;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_tab_icon{
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_tab_icon.accordion-right{
+    right: 20px;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_tab_icon.accordion-left{
+    left: 20px;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_tab_icon i{
+    font-size: 20px;
+    color: #999;
+}
+.power_accordion .item.active .power_accordion_tab .power_accordion_tab_icon i{
+    font-size: 20px;
+    color: #fff;
+}
+.power_accordion .item .power_accordion_tab .power_accordion_tab_icon i.close_icon{
+    display: none;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_accordion .item.active .power_accordion_tab .power_accordion_tab_icon i.open_icon{
+    display: none;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_accordion .item.active .power_accordion_tab .power_accordion_tab_icon i.close_icon{
+    display: block;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_accordion .item .power_accordion_info{
+    position: relative;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: capitalize;  /* default,normal,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #fafafa;
+    color: #000;
+    text-shadow: none; /* none */
+    padding: 20px 20px 20px 20px;
+    border-radius: 0px 0px 0px 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #111;
+    display: none;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_accordion .item .power_accordion_info.active{
+    display: block;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}

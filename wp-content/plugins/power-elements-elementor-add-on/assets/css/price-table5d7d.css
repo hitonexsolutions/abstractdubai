@@ -1,0 +1,348 @@
+/*---- Price Table ----*/
+.power_pricetable{
+    position: relative;
+    background: #fafafa;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eee;
+    border-style: solid;
+    border-radius: 0px 0px 0px 0px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_pricetable:hover{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_pricetable_header{
+    position: relative;
+}
+.power_pricetable_header.ribbon_1:before{
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    width: auto;
+    background: transparent;
+    padding: 0px 0px 0px 0px;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.power_pricetable_header_top{
+    position: relative;
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+    text-align: center;
+}
+.power_pricetable_header.ribbon_2:before{
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: auto;
+    background: transparent;
+    padding: 0px 0px 0px 0px;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+.power_pricetable:hover .power_pricetable_header_top{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #aaa;
+    border-radius: 0px 0px 0px 0px;
+}
+.power_pricetable_header_top .power_pricetable_title{
+    font-family: inherit;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: uppercase;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #222;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_pricetable .power_pricetable_header_top p{
+    margin: 15px 0px 15px 0px;
+}
+.power_pricetable_icon{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    color: #444;
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 100% 100% 100% 100%;
+    text-align: center;
+    z-index: 2;
+    margin: 0 auto;
+}
+.power_pricetable:hover .power_pricetable_icon{
+    font-size: 30px;
+    color: #999;
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 10px 10px 10px 10px;
+}
+.power_pricetable_header p{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: none;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #222;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.power_pricetable_header_bottom{
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+    text-align: center;
+}
+.power_pricetable_header_bottom h2{
+    padding: 0px 0px 0px 0px;
+}
+.power_pricetable:hover .power_pricetable_header_bottom{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+}
+.power_pricetable_header h2 .original_price{
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: unset;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: line-through;  /* default,none,underline,overline,line-through */
+    color: #aaa;
+}
+.power_pricetable_header_bottom h2 .current_price{
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: unset;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #727272;
+}
+.power_pricetable_header_bottom h2 .currency{
+    font-family: inherit;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: unset;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #727272;
+}
+.power_pricetable_header_bottom h2 .period{
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: lowercase;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #666;
+}
+.power_pricetable_body{
+    background: transparent;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+}
+.power_pricetable:hover .power_pricetable_body{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.power_pricetable_body ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.power_pricetable_body ul li{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: capitalize;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: transparent;
+    color: #333;
+    text-shadow: none; /* none */
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #fafafa;
+    border-radius: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+}
+.power_pricetable_body ul li:first-child{
+    border-top: 0px;
+}
+.power_pricetable_body ul li:last-child{
+    border-bottom: 0px;
+}
+.power_pricetable_body ul li:hover{
+    background: transparent;
+    color: #333;
+}
+.power_pricetable_bottom{
+    position: relative;
+    margin: 0px 0px 0px 0px;
+    background: transparent;
+    color: #333;
+    padding: 15px 15px 15px 15px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #fafafa;
+    border-radius: 0px 0px 0px 0px;
+    text-align: center;
+}
+.power_pricetable:hover .power_pricetable_bottom{
+    background: transparent;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #fafafa;
+    border-radius: 0px 0px 0px 0px;
+}
+.power_pricetable_bottom p{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 0px;
+    text-transform: normal;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #fff;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.power_pricetable_bottom a.power_pricetable_button{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 1px;
+    text-transform: uppercase;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #fafafa;
+    color: #333;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.power_pricetable_bottom a.power_pricetable_button:hover{
+    display: inline-block;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 500;
+    font-style: normal;         /* default,normal,italic,oblique */
+    letter-spacing: 1px;
+    text-transform: uppercase;  /* inherit, initial, unset,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    background: #f2f2f2;
+    color: #777;
+    text-shadow: none; /* none */
+    margin: 0px 0px 0px 0px;
+    padding: 10px 25px 10px 25px;
+    border-width: 0px 0px 0px 0px;
+    border-style: solid;
+    border-color: #eee;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+}
+.power_pricetable_icon{
+    position: relative;
+}
+.power_pricetable_icon::before,
+.power_pricetable_icon::after {
+    content: "";
+    position: absolute;
+    background: #ddd;
+    width: 50px;
+    height: 1px;
+    top: 50%;
+}
+.power_pricetable_icon::before {
+    transform: translate(-150%, -50%);
+    left: 0;
+}
+.power_pricetable_icon::after {
+    transform: translate(150%, -50%);
+    right: 0;
+}

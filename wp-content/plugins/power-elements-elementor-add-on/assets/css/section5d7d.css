@@ -1,0 +1,367 @@
+/*----  Banner 3 ----*/
+.power_header_content{
+    position: relative;
+    padding: 100px 50px 100px 50px;
+}
+.power_header_content .align-left{
+    text-align: left;
+}
+.power_header_content .align-center{
+    text-align: center;
+}
+.power_header_content .align-right{
+    text-align: right;
+}
+.power_header_content.type_2{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.power_header_content.type_2:before {
+    background: rgba(0, 0, 0, 0.5);
+}
+.power_header_content.type_2 .power_header_top{
+    background: #5c185d;
+    margin: 0px 0px 0px 0px;
+    padding: 100px 50px 100px 50px;
+}
+.power_header_content .power_header_inner{
+    width: 635px;
+    max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+    .power_header_content .power_header_inner{
+        max-width: 95%;
+    }
+}
+.power_header_content .power_header_top{
+    background: #8e5454;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 30px 30px 30px;
+}
+.power_header_content>div{
+    position: relative;
+}
+.power_header_content h1{
+    font-family: inherit;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique */
+    text-transform: capitalize;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #20ccff;
+    letter-spacing: 0px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    text-shadow: 5px 5px 2px rgba(12, 8, 8, 0.9); /* none */
+}
+.power_header_content h2{
+    font-family: inherit;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique*/
+    text-transform: capitalize;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #ea10d0;
+    letter-spacing: 0px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-shadow: 5px 5px 2px rgba(12, 8, 8, 0.9); /* none */
+}
+.power_header_content h3{
+    font-family: inherit;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique*/
+    text-transform: capitalize;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #ddf71c;
+    letter-spacing: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-shadow: none; /* none */
+}
+.power_header_content h4{
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique*/
+    text-transform: capitalize;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #ddf71c;
+    letter-spacing: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-shadow: none; /* none */
+}
+.power_header_content h5{
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique*/
+    text-transform: uppercase;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: none;  /* default,none,underline,overline,line-through */
+    color: #ffa500;
+    letter-spacing: 0px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-shadow: none; /* none */
+}
+.power_header_content h6{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    font-style: italic;         /* default,normal,italic,oblique*/
+    text-transform: uppercase;  /* unset,none,inherit,initial,uppercase,lowercase,capitalize */
+    text-decoration: overline;  /* default,none,underline,overline,line-through */
+    color: #19da1f;
+    letter-spacing: 0px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    text-shadow: 5px 5px 2px rgba(12, 8, 8, 0.9); /* none */
+}
+.power_header_content p{
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fdfdfd;
+    letter-spacing: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-shadow: none; /* none */
+}
+
+/*---------- Video Banner ---------*/
+.power_header_video{
+    width: 50%;
+    text-align: center;
+}
+.power_header_video_button a{
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    font-size: 50px;
+    background: #128c81;
+    color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.power_header_video_button a:hover{
+    background: #c33636;
+    color: #128c81;
+}
+.power_header_video_button a i{
+    margin-left: 5px;
+}
+@media screen and (max-width: 767px){
+    .power_header_content.type_2{
+        display: block;
+    }
+    .power_header_content .power_header_inner,
+    .power_header_video{
+        width: 100%;
+    }
+    .power_header_video_button {
+        display: block;
+    }
+    .power_header_video_button a{
+        margin: 50px auto;
+    }
+}
+
+
+/*---------- Button Section ------------*/
+.power_header_button_group{
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 10px 0px;
+}
+.power_header_button{
+    position: relative;
+    width: auto;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    box-shadow: 10px 6px 10px 5px rgba(163,14,163,0.5);
+    padding: 12px 45px;
+    background: gray;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: blue;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.power_header_button:hover{
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.power_header_button span.button_value {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.power_header_button span.power_header_button_icon{
+    position: relative;
+    z-index: 2;
+}
+.power_header_button.power_header_button_icon_left .power_header_button_icon{
+    margin-right: 15px;
+}
+.power_header_button.power_header_button_icon_right .power_header_button_icon{
+    margin-left: 15px;
+}
+
+.power_header_button:before,
+.power_header_button:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+/*----------*/
+.power_header_button{
+    color: white;
+}
+.power_header_button:hover{
+    color: rgb(0, 0, 0);
+}
+.power_header_button:before{
+    background: #ffffff;
+}
+.power_header_button:after{
+    background: #000000;
+}
+
+/*---------- Button Effect 1 ------------*/
+.power_header_button.effect_1:before {
+    right: 100%;
+    top: 0;
+}
+.power_header_button.effect_1:hover::before {
+    right: 0;
+}
+.power_header_button.effect_1:after {
+    left: 0;
+    top: 0;
+}
+.power_header_button.effect_1:hover::after {
+    left: 100%;
+}
+
+/*---------- Button Effect 2 ------------*/
+.power_header_button.effect_2:before {
+    bottom: 100%;
+    left: 0;
+}
+.power_header_button.effect_2:hover::before {
+    bottom: 0;
+}
+.power_header_button.effect_2:after {
+    left: 0;
+    top: 0;
+}
+.power_header_button.effect_2:hover::after {
+    top: 100%;
+}
+
+/*---------- Button Effect 3 ------------*/
+.power_header_button.effect_3:before {
+    left: 100%;
+    top: 0;
+}
+.power_header_button.effect_3:hover::before {
+    left: 0;
+}
+.power_header_button.effect_3:after {
+    right: 0;
+    top: 0;
+}
+.power_header_button.effect_3:hover::after {
+    right: 100%;
+}
+
+/*---------- Button Effect 4 ------------*/
+.power_header_button.effect_4:before {
+    top: 100%;
+    left: 0;
+}
+.power_header_button.effect_4:hover::before {
+    top: 0;
+}
+.power_header_button.effect_4:after {
+    bottom: 0;
+    left: 0;
+}
+.power_header_button.effect_4:hover::after {
+    bottom: 100%;
+}
+
+/*---------- Button Effect 5 ------------*/
+.power_header_button.effect_5:before {
+    left: 0;
+    top: 0;
+    transform: scale(0);
+}
+.power_header_button.effect_5:hover::before {
+    right: 0;
+    transform: scale(1);
+}
+.power_header_button.effect_5:after {
+    left: 0;
+    top: 0;
+    transform: scale(1);
+}
+.power_header_button.effect_5:hover::after {
+    left: 0;
+    transform: scale(0);
+}
+
