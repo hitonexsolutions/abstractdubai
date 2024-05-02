@@ -83,7 +83,7 @@
     position: absolute;
     bottom: 0%;
     right: 0%;
-    background: rgba(54, 54, 54, 0.7);
+    background: rgba(115, 115, 115, 0);
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -431,3 +431,5 @@
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev{
     background: none;
 }
+
+.slider_item .slider-inner a.popup img{height: 100%; width: 100%;}
